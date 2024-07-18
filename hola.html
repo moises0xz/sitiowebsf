@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Navegación</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            
+            align-items: center;
+            height: 50vh; /* Hace que el contenedor ocupe toda la altura de la pantalla */
+            margin: 0;
+            
+        }
+        .menu {
+            display: flex;
+            background-color: #f8f8f8;
+            padding: 5px 10px;
+            align-items: center;
+            margin-top: -344.1px; 
+            margin-left: 72.5%;
+            
+            border: 1px solid #ccc; /* Agregar un borde para visualizar mejor el contenedor */
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+        }
+        .menu-item i {
+            margin-right: 5px;
+            font-size: 20px;
+        }
+        .menu a {
+          text-decoration: none;
+            color: #e22525;
+            font-size: 15px;
+        }
+        .menu a:hover {
+            color: #007bff;
+        }
+        .colo i {
+         color:aqua;
+
+
+        }
+        .separator {
+            height: 20px; /* Ajusta la altura de la barra vertical */
+            width: 1px;
+            background-color: #000;
+            margin: 0 10px; /* Espacio alrededor de la barra vertical */
+        }
+    </style>
+</head>
+<>
+    <div class="menu">
+        <div class="colo">
+        <div class="menu-item">
+            <i class="fas fa-user"></i>
+            <a href="#cuenta">Cuenta</a>
+        </div>
+        </div>
+        <div class="separator"></div>
+        <div class="colo">
+        <div class="menu-item">
+            <i class="fas fa-info-circle"></i>
+            <a href="#informacion">Información</a>
+        </div>
+        </div>
+        <div class="separator"></div>
+        <div class="colo">
+        <div class="menu-item">
+            <i class="fas fa-briefcase"></i>
+            <a href="#oficina">Oficina</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
